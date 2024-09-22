@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search a word</title>
-    <link rel="stylesheet"href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <div id="box">
-        <h1>Search a word</h1>
-        
-        <div class="search">
-            <span class="material-icons" id="search">search</span>
-            <input type="text" name="search-input" id="search-input" class="search-input" placeholder="type any word">
-            <span class="material-icons" id="close">close</span>
-        </div>
-        
-        <p class="info">Type a word to get its meaning</p>
 
-        <ul>
-            <li class="word">
-                <div class="details">
-                    <p>____</p>
-                    <span>____</span>
-                </div>
-                <i class="fas fa-volume-up"></i>
-            </li>
-            <div class="content">
-                <li class="meaning">
-                    <div class="details">
-                        <p>meaning</p>
-                        <span>____</span>
-                    </div>
-                </li>
-                <li class="example">
-                    <div class="details">
-                        <p>Example</p>
-                        <span>____</span>
-                    </div>
-                </li>
-                <li class="synonyms">
-                    <div class="details">
-                        <p>Synonyms</p>
-                        <div class="list"></div>
-                    </div>
-                </li>
-            </div>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>English Dictionary</title>
+</head>
+
+<body>
+  <header>
+    <div class="head"><center>Unlock the power of words with instant definitions, synonyms, and language insights at your fingertips.</center></div>
+  </header>
+  <div class="wrapper">
+    <header>Increase</header>
+    <div class="search">
+      <input type="text" placeholder="Search a word" required spellcheck="false" />
+      <i class="fas fa-search"></i>
+      <span class="material-icons">close</span>
     </div>
-    <script src="script.js"></script>
+    <p class="info-text">Type any existing word and press enter to get the meaning.</p>
+    <ul>
+      <li class="word">
+        <div class="details">
+          <p>__</p>
+          <span>_ _</span>
+        </div>
+        <i class="fas fa-volume-up"></i>
+      </li>
+      <div class="content">
+        <li class="meaning">
+          <div class="details">
+            <p>Meaning</p>
+            <span>___</span>
+          </div>
+        </li>
+        <li class="example">
+          <div class="details">
+            <p>Example</p>
+            <span>___</span>
+          </div>
+        </li>
+        <li class="synonyms">
+          <div class="details">
+            <p>Synonyms</p>
+            <div class="list"></div>
+          </div>
+        </li>
+      </div>
+    </ul>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
