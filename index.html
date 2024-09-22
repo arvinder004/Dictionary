@@ -2,57 +2,66 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <title>English Dictionary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    </style>
 </head>
 
 <body>
-  <header>
-    <div class="head"><center>Unlock the power of words with instant definitions, synonyms, and language insights at your fingertips.</center></div>
-  </header>
-  <div class="wrapper">
-    <header>Increase</header>
-    <div class="search">
-      <input type="text" placeholder="Search a word" required spellcheck="false" />
-      <i class="fas fa-search"></i>
-      <span class="material-icons">close</span>
-    </div>
-    <p class="info-text">Type any existing word and press enter to get the meaning.</p>
-    <ul>
-      <li class="word">
-        <div class="details">
-          <p>__</p>
-          <span>_ _</span>
+    <div class="nav head">Empowering your vocabulary – easily explore definitions and meanings of every word.</div>
+    <!-- <div class="head">
+            <center>Unlock the power of words with instant definitions, synonyms, and language insights at your
+                fingertips.</center>
+        </div> -->
+
+    <div class="wrapper">
+        <header>Discover the meaning behind every word.</header>
+        <div class="search">
+            <input type="text" placeholder="Search a word" required spellcheck="false" />
+            <i class="fas fa-search"></i>
+            <span class="material-icons">close</span>
         </div>
-        <i class="fas fa-volume-up"></i>
-      </li>
-      <div class="content">
-        <li class="meaning">
-          <div class="details">
-            <p>Meaning</p>
-            <span>___</span>
-          </div>
-        </li>
-        <li class="example">
-          <div class="details">
-            <p>Example</p>
-            <span>___</span>
-          </div>
-        </li>
-        <li class="synonyms">
-          <div class="details">
-            <p>Synonyms</p>
-            <div class="list"></div>
-          </div>
-        </li>
-      </div>
-    </ul>
-  </div>
-  <script src="script.js"></script>
+        <p class="info-text">Type any existing word and press enter to get the meaning.</p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>__</p>
+                    <span>_ _</span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>___</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>___</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <footer>
+        Developed by arvinder.
+    </footer>
+    <script src="script.js">
+        </script>
 </body>
 
 </html>
